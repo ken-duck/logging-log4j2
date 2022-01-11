@@ -1,2 +1,2 @@
-build = "mvn clean -DskipTests package --fail-at-end"
+build = "JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/ mvn clean -DskipTests package --fail-at-end"
 jdkVersion = "8"
