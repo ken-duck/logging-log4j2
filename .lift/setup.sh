@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-~/.m2/toolchain.xml < '<?xml version="1.0" encoding="UTF8"?>
+echo '<?xml version="1.0" encoding="UTF8"?>
 <!--
   ~ Licensed to the Apache Software Foundation (ASF) under one or more
   ~ contributor license agreements. See the NOTICE file distributed with
@@ -61,4 +61,4 @@
   </toolchain>
   <!-- other toolchains -->
 </toolchains>
-'
+' > ~/.m2/toolchains.xml
