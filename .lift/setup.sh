@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/bash
 
 echo '<?xml version="1.0" encoding="UTF8"?>
 <!--
