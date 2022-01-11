@@ -1,2 +1,2 @@
 build = "mvn clean -DskipTests package --fail-at-end"
-jdkVersion = 8
+jdkVersion = "8"
