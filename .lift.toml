@@ -1,4 +1,3 @@
 setup = ".lift/setup.sh"
 build = "JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/ mvn clean -DskipTests package --fail-at-end"
 jdkVersion = "8"
-tools = ["findsecbugs"]
